@@ -2,7 +2,7 @@ const avatar = require('../index');
 
 test('generates avatar', () => {
   const a = avatar('hello world');
-  
+  // TODO - should fix the tests as this is not valid anymore because the ID's are generated so they will not match
   expect(a).toEqual(`<?xml version="1.0" encoding="UTF-8"?>
 <svg  viewBox="0 0 80 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
   <defs>
@@ -19,7 +19,7 @@ test('generates avatar', () => {
 
 test('generates avatar with size', () => {
   const a = avatar('hello world', 300);
-  
+
   expect(a.includes('width="300px"')).toBeTruthy();
   expect(a.includes('height="300px"')).toBeTruthy();
 });

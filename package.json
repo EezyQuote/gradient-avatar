@@ -1,13 +1,14 @@
 {
-  "name": "gradient-avatar",
+  "name": "@eezyquote/gradient-avatar",
   "version": "1.0.0",
   "description": "Beautiful default avatars",
   "license": "MIT",
-  "repository": "varld/gradient-avatar",
+  "repository": "EezyQuote/gradient-avatar",
   "author": {
     "name": "Tobias Herber",
     "email": "gh@herber.space",
-    "url": "https://herber.space"
+    "url": "https://herber.space",
+    "repository": "varld/gradient-avatar"
   },
   "engines": {
     "node": ">=8"
