@@ -4,8 +4,8 @@
 
 <p align="center">🌈 Beautiful default avatars.</p>
 <p align="center">
-  <a href="https://travis-ci.org/EezyQuote/gradient-avatar">
-    <img src="https://travis-ci.org/EezyQuote/gradient-avatar.svg?branch=main" alt="Build Status" />
+  <a href="https://travis-ci.com/EezyQuote/gradient-avatar">
+    <img src="https://travis-ci.com/EezyQuote/gradient-avatar.svg?branch=main" alt="Build Status" />
   </a>
   <a href="https://codecov.io/gh/EezyQuote/gradient-avatar">
     <img src="https://codecov.io/gh/EezyQuote/gradient-avatar/branch/main/graph/badge.svg" />
