@@ -1,40 +1,44 @@
 {
   "name": "@eezyquote/gradient-avatar",
-  "version": "1.0.0",
-  "description": "Beautiful default avatars",
+  "version": "1.0.2",
+  "description": "Beautiful gradient avatars",
   "license": "MIT",
   "repository": "EezyQuote/gradient-avatar",
   "author": {
-    "name": "Tobias Herber",
-    "email": "gh@herber.space",
-    "url": "https://herber.space",
-    "repository": "varld/gradient-avatar"
+    "name": "EezyQuote",
+    "repository": "EezyQuote/gradient-avatar"
   },
   "engines": {
     "node": ">=8"
   },
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "prepublish": "tsc"
   },
-  "files": [
-    "index.js"
-  ],
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "keywords": [
     "hsl",
     "rgb",
     "convert",
     "to",
     "color",
-    "colors"
+    "colors",
+    "gradient",
+    "gravatar"
   ],
+  "prettier": "@eezyquote/prettier-config",
   "dependencies": {
     "hsl-rgb": "^1.0.0",
     "hsl-triad": "^1.0.0",
     "string-hash": "^1.1.3"
   },
   "devDependencies": {
+    "@eezyquote/prettier-config": "^0.4.0",
+    "@types/string-hash": "^1.1.1",
     "codecov": "^3.1.0",
-    "jest": "^23.6.0"
+    "jest": "^23.6.0",
+    "typescript": "^4.2.3"
   },
   "jest": {
     "collectCoverage": true,
