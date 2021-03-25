@@ -4,19 +4,17 @@
 
 <p align="center">🌈 Beautiful default avatars.</p>
 <p align="center">
-  <a href="https://travis-ci.org/varld/gradient-avatar">
-    <img src="https://travis-ci.org/varld/gradient-avatar.svg?branch=master" alt="Build Status" />
+  <a href="https://travis-ci.org/EezyQuote/gradient-avatar">
+    <img src="https://travis-ci.org/EezyQuote/gradient-avatar.svg?branch=main" alt="Build Status" />
   </a>
-  <a href="https://codecov.io/gh/varld/gradient-avatar">
-    <img src="https://codecov.io/gh/varld/gradient-avatar/branch/master/graph/badge.svg" />
+  <a href="https://codecov.io/gh/EezyQuote/gradient-avatar">
+    <img src="https://codecov.io/gh/EezyQuote/gradient-avatar/branch/main/graph/badge.svg" />
   </a>
 </p>
 
-## About 
+## About
 
-Generate beautiful and unique avatars for your users. `gradient-avatar` was inspired by Zeit.
-
-`gradient-avatar` is also available as a [microservice](https://github.com/usemeta/gradient-avatar-service).
+Generate beautiful and unique avatars for your users. `gradient-avatar` was inspired by Vercel.
 
 ## Install
 
@@ -27,9 +25,9 @@ $ npm install gradient-avatar
 ## Usage
 
 ```js
-const avatar = require('gradient-avatar');
+const avatar = require('gradient-avatar')
 
-avatar('uid');
+avatar('uid')
 // => the avatar svg
 ```
 
@@ -41,13 +39,13 @@ avatar('uid');
 
 Type: `string`
 
-The seed for the generated avatar. 
+The seed for the generated avatar.
 
 #### size
 
-Type: `number`
+Type: `number` | `string`
 
-The generated svg's size.
+The generated svg's size. Number default to `px` string required a measurement unit.
 
 #### Returns
 
@@ -57,9 +55,4 @@ The generated avatar svg.
 
 ## License
 
-MIT © [Tobias Herber](https://herber.space)
-
-<p align="center">
-  <br/>
-  <img width="200px" src="https://github.com/varld/branding/blob/master/varld/Made%20by.svg" />
-</p>
+MIT © EezyQuote
